@@ -10,6 +10,8 @@ export const MainContainer = styled.main`
 
   overflow: hidden;
 
+  margin-bottom: 3rem;
+
   @media screen and (max-width: 950px) {
     grid-template-columns: 1fr;
   }
