@@ -100,13 +100,13 @@ Error generating stack: `+o.message+`
   @media screen and (max-width: 845px) {
     ${rd} {
       /* display: none; */
-      display: flex;
       visibility: hidden;
-
+      
       position: fixed;
       right: 0;
       top: 0;
-
+      
+      display: flex;
       flex-direction: column;
       justify-content: flex-start;
       gap: 31px;
@@ -157,7 +157,7 @@ Error generating stack: `+o.message+`
     display: block;
     `}
 
-  @media creen and (max-width: 845px) {
+  @media screen and (max-width: 845px) {
     ${e=>e.isDropdownOpen&&`
       padding-top: 1.25rem;
       
@@ -176,7 +176,7 @@ Error generating stack: `+o.message+`
   border-radius: 10px;
   box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.14);
 
-  @media creen and (max-width: 845px) {
+  @media screen and (max-width: 845px) {
     border-radius: 0;
     box-shadow: none;
   }
@@ -221,7 +221,7 @@ Error generating stack: `+o.message+`
   align-items: center;
   gap: 2.5rem;
 
-  @media creen and (max-width: 845px) {
+  @media screen and (max-width: 845px) {
     flex-direction: column;
     align-items: flex-start;
   }
@@ -232,7 +232,7 @@ Error generating stack: `+o.message+`
   &:hover {
     color: var(--almost-black);
   }
-`,Lm="/snap-intro-section/assets/icon-todo.95927352.svg",Am="/snap-intro-section/assets/icon-calendar.b34d000b.svg",Dm="/snap-intro-section/assets/icon-reminders.a5569ebc.svg",Mm="/snap-intro-section/assets/icon-planning.09cf89e5.svg",jm=[{id:1,icon:Lm,text:"Todo List"},{id:2,icon:Am,text:"Calendar"},{id:3,icon:Dm,text:"Reminders"},{id:4,icon:Mm,text:"Planning"}],Fm=[{id:1,text:"History"},{id:2,text:"Our Team"},{id:3,text:"Blog"}],Um=()=>Re(Om,{children:[F(_a,{hasIcons:!0,headItem:"Features",data:jm}),F(_a,{headItem:"Company",data:Fm}),F(Pa,{children:"Careers"}),F(Pa,{children:"About"})]}),Bm=()=>{const[e,t]=xe.exports.useState(!1);function n(){t(!0)}function r(){t(!1)}function l(){t(!1)}const o=jf(e,l);return Re(Ju,{children:[F(km,{isActive:e}),F(td,{}),Re(nd,{ref:o,children:[F(Sm,{src:xm,alt:"Snap logo image"}),Re(rd,{id:e?"sidepanel-show":"sidepanel-close",children:[F(ld,{src:Em,onClick:r}),F(Um,{}),Re(od,{children:[F(ya,{children:"Login"}),F(ya,{primary:!0,children:"Register"})]})]}),F(id,{src:Cm,alt:"Open menu icon",onClick:n})]})]})};function za(){const{innerWidth:e,innerHeight:t}=window;return{width:e,height:t}}const Hm=()=>{const[e,t]=xe.exports.useState(za);return xe.exports.useEffect(()=>{function n(){t(za)}return window.addEventListener("resize",n),()=>window.removeEventListener("resize",n)},[e]),e},Vm=J.main`
+`,Lm="/snap-intro-section/assets/icon-todo.95927352.svg",Am="/snap-intro-section/assets/icon-calendar.b34d000b.svg",Dm="/snap-intro-section/assets/icon-reminders.a5569ebc.svg",Mm="/snap-intro-section/assets/icon-planning.09cf89e5.svg",jm=[{id:1,icon:Lm,text:"Todo List"},{id:2,icon:Am,text:"Calendar"},{id:3,icon:Dm,text:"Reminders"},{id:4,icon:Mm,text:"Planning"}],Fm=[{id:1,text:"History"},{id:2,text:"Our Team"},{id:3,text:"Blog"}],Um=()=>Re(Om,{children:[F(_a,{hasIcons:!0,headItem:"Features",data:jm}),F(_a,{headItem:"Company",data:Fm}),F(Pa,{children:"Careers"}),F(Pa,{children:"About"})]}),Bm=()=>{const[e,t]=xe.exports.useState(!1);function n(){t(!0)}function r(){t(!1)}function l(){t(!1)}const o=jf(e,l);return Re(Ju,{children:[F(km,{isActive:e}),F(td,{}),Re(nd,{ref:o,children:[F(Sm,{src:xm,alt:"Snap logo image"}),Re(rd,{children:[F(ld,{src:Em,onClick:r}),F(Um,{}),Re(od,{children:[F(ya,{children:"Login"}),F(ya,{primary:!0,children:"Register"})]})]}),F(id,{src:Cm,alt:"Open menu icon",onClick:n})]})]})};function za(){const{innerWidth:e,innerHeight:t}=window;return{width:e,height:t}}const Hm=()=>{const[e,t]=xe.exports.useState(za);return xe.exports.useEffect(()=>{function n(){t(za)}return window.addEventListener("resize",n),()=>window.removeEventListener("resize",n)},[e]),e},Vm=J.main`
   display: grid;
   grid-template-columns: 1fr 1fr;
 
