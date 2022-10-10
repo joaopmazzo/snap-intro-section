@@ -87,13 +87,13 @@ export const ResponsiveHeader = createGlobalStyle<WrapperProps>`
   @media screen and (max-width: 845px) {
     ${Wrapper} {
       /* display: none; */
-      display: flex;
       visibility: hidden;
-
+      
       position: fixed;
       right: 0;
       top: 0;
-
+      
+      display: flex;
       flex-direction: column;
       justify-content: flex-start;
       gap: 31px;

@@ -5,7 +5,7 @@ export const NavigationContainer = styled.nav`
   align-items: center;
   gap: 2.5rem;
 
-  @media creen and (max-width: 845px) {
+  @media screen and (max-width: 845px) {
     flex-direction: column;
     align-items: flex-start;
   }

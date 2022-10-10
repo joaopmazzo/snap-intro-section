@@ -42,7 +42,7 @@ const Header = () => {
       <BlackOverlay />
       <HeaderContainer ref={ref}>
         <LogoImg src={logo} alt="Snap logo image" />
-        <Wrapper id={isOpen ? "sidepanel-show" : "sidepanel-close"}>
+        <Wrapper>
           <CloseIcon src={CloseMenuIcon} onClick={closeSidePanel} />
           <Navbar />
           <LoginContainer>

@@ -22,7 +22,7 @@ export const DropdownContentWrapper = styled.div<DropdownContentWrapperProps>`
     display: block;
     `}
 
-  @media creen and (max-width: 845px) {
+  @media screen and (max-width: 845px) {
     ${(props) =>
       props.isDropdownOpen &&
       `
@@ -45,7 +45,7 @@ export const DropdownContent = styled.div`
   border-radius: 10px;
   box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.14);
 
-  @media creen and (max-width: 845px) {
+  @media screen and (max-width: 845px) {
     border-radius: 0;
     box-shadow: none;
   }
