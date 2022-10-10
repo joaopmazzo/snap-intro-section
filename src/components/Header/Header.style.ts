@@ -1,5 +1,4 @@
 import styled, { createGlobalStyle } from "styled-components";
-import { device } from "../../utils/deviceScreenSize";
 
 interface WrapperProps {
   isActive?: boolean;

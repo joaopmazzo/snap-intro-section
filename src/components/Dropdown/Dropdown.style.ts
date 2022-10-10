@@ -1,5 +1,4 @@
 import styled, { createGlobalStyle, css, keyframes } from "styled-components";
-import { device } from "../../utils/deviceScreenSize";
 
 interface DropdownContentWrapperProps {
   isDropdownOpen: boolean;
@@ -23,7 +22,7 @@ export const DropdownContentWrapper = styled.div<DropdownContentWrapperProps>`
     display: block;
     `}
 
-  @media ${device.mobile} {
+  @media creen and (max-width: 845px) {
     ${(props) =>
       props.isDropdownOpen &&
       `
@@ -46,7 +45,7 @@ export const DropdownContent = styled.div`
   border-radius: 10px;
   box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.14);
 
-  @media ${device.mobile} {
+  @media creen and (max-width: 845px) {
     border-radius: 0;
     box-shadow: none;
   }

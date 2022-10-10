@@ -1,12 +1,11 @@
 import styled from "styled-components";
-import { device } from "../../utils/deviceScreenSize";
 
 export const NavigationContainer = styled.nav`
   display: flex;
   align-items: center;
   gap: 2.5rem;
 
-  @media ${device.mobile} {
+  @media creen and (max-width: 845px) {
     flex-direction: column;
     align-items: flex-start;
   }
